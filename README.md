@@ -44,3 +44,4 @@ button.addEventListener(
 - 세 번째 파라미터(useCapture Parameter)를 true로 하면 (Capture Phase에 이벤트 핸들러 등록 - Top-down 방식)
 - 커스텀 이벤트
 - template tag
+- 이벤트 위임 / Element.matches
