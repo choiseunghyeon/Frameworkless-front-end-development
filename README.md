@@ -43,3 +43,4 @@ button.addEventListener(
 - addEventListener에 이벤트 핸들러를 등록할 때 세 번째 파라미터(useCapture Parameter)의 기본 값은 false - Bubble Phase 핸들러 등록 후 이벤트 처리 (Bottom-up 방식)
 - 세 번째 파라미터(useCapture Parameter)를 true로 하면 (Capture Phase에 이벤트 핸들러 등록 - Top-down 방식)
 - 커스텀 이벤트
+- template tag
