@@ -8,13 +8,13 @@ YAGNI(You aren't gonna need it) 원칙
 
 - 필요하다고 예측할 때가 아니라 실제로 필요할 때 구현하라.
 
-Chapter 2. Rendering
+## Chapter 2. Rendering
 
 - Diff 알고리즘
 - 렌더링 엔진 구현
 - 동적 데이터 렌더링
 
-Chapter 3. Dom Event 관리
+## Chapter 3. Dom Event 관리
 
 ```javascript
 <div>
@@ -45,3 +45,13 @@ button.addEventListener(
 - 커스텀 이벤트
 - template tag
 - 이벤트 위임 / Element.matches
+
+## Chapter 4. Web Component
+
+### 세 가지 중요 기술
+
+**_IE에서는 지원 하지 않음_**
+
+- HTML 템플릿: <template> 태그는 렌더링 되지는 않지만 JS 코드에서 동적인 콘텐츠를 생성하는데 스탬프 역할을 한다.
+- 사용자 정의 요소: 자신만의 DOM 요소를 작성할 수 있다.
+- Shadow DOM: Web Component가 외부의 DOM에 영향을 받지 않아야 하는 경우에 유용
