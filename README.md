@@ -1,8 +1,12 @@
 # Frameworkless-front-end-development
 
+ref: https://github.com/Apress/frameworkless-front-end-development
+
 ## 프레임워크 없는 프론트엔드 개발 공부용
 
-ref: https://github.com/Apress/frameworkless-front-end-development
+**_프레임워크란?_**
+
+- 프레임워크는 코드를 호출한다. 코드는 라이브러리를 호출한다.
 
 YAGNI(You aren't gonna need it) 원칙
 
@@ -55,3 +59,5 @@ button.addEventListener(
 - HTML 템플릿: <template> 태그는 렌더링 되지는 않지만 JS 코드에서 동적인 콘텐츠를 생성하는데 스탬프 역할을 한다.
 - 사용자 정의 요소: 자신만의 DOM 요소를 작성할 수 있다.
 - Shadow DOM: Web Component가 외부의 DOM에 영향을 받지 않아야 하는 경우에 유용
+
+## Chapter 5. Routing
