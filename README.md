@@ -61,3 +61,8 @@ button.addEventListener(
 - Shadow DOM: Web Component가 외부의 DOM에 영향을 받지 않아야 하는 경우에 유용
 
 ## Chapter 5. Routing
+
+## Chapter 5. State Management
+
+- MVC
+- Observer Pattern
