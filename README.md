@@ -66,3 +66,7 @@ button.addEventListener(
 
 - MVC
 - Observer Pattern
+
+**_ 반응형 프로그래밍 _**
+
+- 모델 변경, HTTP 요청, 사용자 동작, 탐색 등과 같은 이벤트를 방출할 수 있는 옵저버블로 동작하도록 구현하는 것을 의미
