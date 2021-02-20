@@ -14,8 +14,8 @@ YAGNI(You aren't gonna need it) 원칙
 
 ## Chapter 2. Rendering
 
+- 컴포넌트 기반 애플리케이션 작성(59p) - 문제를 작은 단위(컴포넌트)로 나누어서 해결한다.
 - Diff 알고리즘
-- 렌더링 엔진 구현
 - 동적 데이터 렌더링
 
 ## Chapter 3. Dom Event 관리
