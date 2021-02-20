@@ -18,5 +18,8 @@
       "beforeEach",
       "describe"
     ]
+  },
+  "dependencies": {
+    "stats.js": "^0.17.0"
   }
 }
