@@ -18,7 +18,13 @@
 - 가능한 표준 DOM 요소와 동일하게 동작해야 한다.(Component 외부의 HTTP 요청 결과에 반응하려면 이벤트를 활용하자)
 - 리액트와 비슷한 느낌
 
-## Chapter 5. Routing
+## Chapter 5. HTTP Request
+
+![HTTPClient](./img/HTTPClientUML.png)
+
+- XMLHttpRequest, Fetch, Axios
+- 구현이 아닌 인터페이스로 프로그래밍 하라. (갱 오브 포)
+  **_ 라이브러리를 사용할 때는 항상 인터페이스를 생성하라. 필요 시 새로운 라이브러리로 쉽게 변경할 수 있다. 153p. _**
 
 ## Chapter 5. State Management
 

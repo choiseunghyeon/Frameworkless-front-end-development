@@ -1,4 +1,4 @@
-import http from "./http.js";
+import http from "./http.js.js";
 
 const HEADERS = {
   "Content-Type": "application/json",

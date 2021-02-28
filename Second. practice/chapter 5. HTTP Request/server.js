@@ -1,6 +1,6 @@
-const epxress = require("express");
+const express = require("express");
 const bodyParser = require("body-parser");
-const uuidv4 = require("uuid/v4");
+const uuidv4 = require("uuid");
 
 const PORT = 8080;
 
