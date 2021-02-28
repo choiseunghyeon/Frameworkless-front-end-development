@@ -26,7 +26,12 @@
 - 구현이 아닌 인터페이스로 프로그래밍 하라. (갱 오브 포)
   **_ 라이브러리를 사용할 때는 항상 인터페이스를 생성하라. 필요 시 새로운 라이브러리로 쉽게 변경할 수 있다. 153p. _**
 
-## Chapter 5. State Management
+## Chapter 6. Routing
+
+- SPA 라우팅 시스템의 두 가지 핵심 요소는 경로 목록을 수집하는 레지스트리, 현재 URL의 리스너다.
+- Fragment Identifier ref: https://developer.mozilla.org/ko/docs/Web/HTTP/Basics_of_HTTP/Identifying_resources_on_the_Web
+
+## Chapter 7. State Management
 
 - MVC
 - Observer Pattern
