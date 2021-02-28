@@ -30,6 +30,8 @@
 
 - SPA 라우팅 시스템의 두 가지 핵심 요소는 경로 목록을 수집하는 레지스트리, 현재 URL의 리스너다.
 - Fragment Identifier ref: https://developer.mozilla.org/ko/docs/Web/HTTP/Basics_of_HTTP/Identifying_resources_on_the_Web
+- History API
+- 라우팅 시스템은 독립적으로 별도의 계층을 유지하는 것이 좋다.
 
 ## Chapter 7. State Management
 
