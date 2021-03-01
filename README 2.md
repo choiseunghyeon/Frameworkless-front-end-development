@@ -35,6 +35,21 @@
 
 ## Chapter 7. State Management
 
+![MVC](./img/MVC Schema.png)
+**_ Work flow 컨트롤러 - C / 모델 - M / 뷰 - V _**
+
+1. C는 M에서 초기 상태를 가져온다.
+2. C는 V를 호출해 초기 상태를 렌더링 한다.
+3. 시스템이 사용자 입력을 받을 준비가 된다.
+4. 사용자가 동작 수행(항목 추가, 삭제 등)
+5. C는 올바른 M의 메서드(model.addItem)를 사용자의 동작과 매핑
+6. M은 상태를 업데이트한다.
+7. C는 M에서 새로운 상태를 얻는다.
+8. C는 V를 호출 해 새로운 상태를 렌더링 한다.
+9. 시스템이 사용자 입력을 받을 준비가 된다.
+
+![Rendering](./img/rendering.png)
+
 - MVC
 - Observer Pattern
 
