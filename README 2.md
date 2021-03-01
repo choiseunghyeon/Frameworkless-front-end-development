@@ -59,10 +59,13 @@
 
 1. 컨트롤러가 모델과 밀접하게 결합된다면 이 패턴을 고려하는 것이 좋다.
 
-**_ 반응형 프로그래밍 _**
+**_ 반응형 프로그래밍 203p. _**
+
+![Observable_Model](./img/observable model.png)
 
 - 모델 변경, HTTP 요청, 사용자 동작, 탐색 등과 같은 이벤트를 방출할 수 있는 옵저버블로 동작하도록 구현하는 것을 의미
 - ref: https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
+- Native Proxy API version 209p.
 
 **_이벤트 버스 패턴 211p._**
 
